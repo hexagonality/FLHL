@@ -1,0 +1,272 @@
+
+:root {
+
+    --background-primary: #efefff;
+
+    --background-secondary: #dfdfff;
+    --background-card: rgba(8, 8, 64, 0.1);
+    --background-card-hover: #e3d2f2;
+    --background-button: #220088;
+    --background-button-hover: #8844d4;
+    --background-button-secondary: #ddddff;
+    --background-button-secondary-hover: #d0d0ff;
+    
+    --text-primary: #0f0f0f;
+    --text-secondary: #222222;
+    --text-accent: #8844d4;
+    
+    --border-primary: #555555;
+    --border-secondary: #3d3d3d;
+    
+    --positive: #2ecc71;
+    --warning: #f39c12;
+    --negative: #e74c3c;
+    
+    --transition: all 0.3s ease;
+}
+
+hat {
+    background: url('http://flhl.whiteik.xyz/light.jpg') no-repeat center center/cover;
+    padding: 12%;
+}
+
+body {
+    background: var(--background-primary);
+    color: var(--text-primary);
+}
+
+/* Typography Improvements */
+h1 {
+    color: var(--text-primary);
+}
+
+h2 {
+    color: var(--text-primary);
+}
+/*
+h2::after {
+    background: var(--text-accent);
+}
+*/
+h3 {
+    color: var(--text-primary);
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+/* Tab Navigation */
+.tab-button {
+    background-color: var(--background-button-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-primary);
+}
+
+.tab-button::before {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+}
+
+.tab-button:hover,
+.tab-button.active {
+    background-color: var(--background-button-secondary-hover);
+}
+
+/* Card Styling */
+
+.card-style {
+    background: var(--background-card);
+    border: 1px solid var(--border-primary);
+}
+/*
+.card-style::before {
+    background: linear-gradient(90deg, var(--text-accent), #6a3093);
+}
+
+.card-style:hover {
+    border-color: var(--text-accent);
+}
+*/
+.card {
+    background: var(--background-card);
+    border: 1px solid var(--border-primary);
+}
+/*
+.card::before {
+    background: linear-gradient(90deg, var(--text-accent), #6a3093);
+}
+
+.card:hover {
+    border-color: var(--text-accent);
+}
+*/
+.card h2 {
+    border-bottom: 1px solid var(--border-secondary);
+}
+
+li {
+    color: var(--text-secondary);
+}
+/*
+li::before {
+    color: var(--text-accent);
+}
+*/
+li2 {
+    color: var(--text-secondary);
+}
+
+.desc {
+    color: var(--positive);
+    background: rgba(46, 204, 113, 0.1);
+    border-left: 3px solid var(--positive);
+}
+/*
+.desc[style*="color: rgb(250, 10, 10)"] {
+    color: var(--negative) !important;
+    background: rgba(231, 76, 60, 0.1);
+    border-left-color: var(--negative);
+}
+
+.desc[style*="color: rgb(10, 250, 10)"] {
+    color: var(--warning) !important;
+    background: rgba(243, 156, 18, 0.1);
+    border-left-color: var(--warning);
+}
+*/
+/* Button Styling */
+.button-style {
+/*    background: linear-gradient(90deg, var(--background-button), #6a3093);*/
+    color: white;
+}
+/*
+.button-style::before {
+    background: linear-gradient(90deg, #6a3093, var(--background-button));
+}
+*/
+.button-info {
+    background: var(--background-button-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-primary);
+}
+
+.button-info:hover {
+    background: var(--background-button-secondary-hover);
+}
+
+/* Icon Box */
+.icon-box { 
+    background: linear-gradient(145deg, #b7b4ba, #c5c3d1); 
+    border: 1px solid var(--border-primary);
+}
+
+.icon-box:hover { 
+    background: linear-gradient(145deg, #7e9dc7, #9EB3D5);
+}
+
+.star {
+    color: #f1800f; 
+}
+
+.star span {
+    color: #f1800f;
+}
+
+/* Expandable Content */
+.content {
+    background: rgba(255, 255, 255, 0.05);
+/*    border-left: 3px solid var(--text-accent);*/
+}
+
+/* Action Buttons */
+.butl {
+    background: var(--background-button-secondary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-primary);
+}
+
+.butl:hover {
+    background: var(--background-button-secondary-hover);
+}
+
+/* Modal Window */
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: linear-gradient(145deg, #d2d2d2, #dadada);
+    border: 1px solid var(--border-primary);
+}
+
+.close-button {
+    color: var(--text-secondary);
+    border: 1px solid var(--border-secondary);
+}
+
+.close-button:hover {
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.1);
+}
+
+/* Filters */
+.filter-group label {
+    color: var(--text-primary);
+}
+
+.filter-group input {
+    background: rgba(0, 0, 0, 0.08);
+    border: 1px solid var(--border-primary);
+    color: var(--text-primary);
+}
+/*
+.filter-group input:focus {
+    border-color: var(--text-accent);
+}
+*/
+/* Suggestions */
+.suggestions {
+    background-color: rgba(210,210,210,0.88);
+    border: 1px solid var(--border-secondary);
+}
+
+.suggestion-item {
+    border-bottom: 1px solid var(--border-primary);
+}
+
+.suggestion-item:hover {
+    background: rgba(255,255,255,0.05);
+/*    color: var(--text-accent);*/
+}
+
+/* Form Buttons */
+.modal-content button {
+/*    background: linear-gradient(90deg, var(--background-button), #6a3093);*/
+    color: white;
+}
+
+.modal-content button[type="button"] {
+    background: var(--background-button-secondary);
+}
+
+.modal-content button[type="button"]:hover {
+    background: var(--background-button-secondary-hover);
+}
+
+.theme-icon[data-theme=dark] {
+  display: block;
+}
+
+.theme-icon[data-theme=gradient] {
+  display: none;
+}
+
+.theme-icon[data-theme=light] {
+  display: none;
+}
+
+.material-symbols-outlined {
+
+  color: #000000;
+
+}

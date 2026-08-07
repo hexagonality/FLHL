@@ -1,0 +1,201 @@
+
+:root {
+
+    --background-primary: #000000;
+
+    --background-secondary: #222222;
+    --background-card: rgba(255, 255, 255, 0.05);
+    --background-card-hover: #3d2d4d;
+    --background-button: #220088;
+    --background-button-hover: #8844d4;
+    --background-button-secondary: #1a1a1a;
+    --background-button-secondary-hover: #282828;
+    
+    --text-primary: #ffffff;
+    --text-secondary: #dddddd;
+    --text-accent: #8844d4;
+    
+    --border-primary: #555555;
+    --border-secondary: #3d3d3d;
+    
+    --positive: #2ecc71;
+    --warning: #f39c12;
+    --negative: #e74c3c;
+    
+    --transition: all 0.3s ease;
+}
+
+hat {
+/*    background: url('http://localhost:8158/FLDSMHL/d.jpg') no-repeat center center/cover;*/
+    background: url('http://flhl.whiteik.xyz/dark.jpg') no-repeat center center/cover;
+    padding: 12%;
+}
+
+body {
+    background: linear-gradient(135deg, #0a0a0a 0%, var(--background-primary) 100%);
+    color: var(--text-primary);
+}
+
+/* Typography Improvements */
+h1 {
+    color: var(--text-primary);
+}
+
+h2 {
+    color: var(--text-primary);
+}
+
+h3 {
+    color: var(--text-primary);
+}
+
+p {
+    color: var(--text-secondary);
+}
+
+/* Tab Navigation */
+.tab-button {
+    background-color: var(--background-button-secondary);
+    color: var(--text-primary);
+}
+
+.tab-button::before {
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+}
+
+.tab-button:hover,
+.tab-button.active {
+    background-color: var(--background-button-secondary-hover);
+}
+
+/* Card Styling */
+
+.card-style {
+    background: var(--background-card);
+}
+
+.card {
+    background: var(--background-card);
+}
+
+li {
+    color: var(--text-secondary);
+}
+
+li2 {
+    color: var(--text-secondary);
+}
+
+/* Button Styling */
+.button-style {
+    color: white;
+}
+
+.button-info {
+    background: var(--background-button-secondary);
+    color: var(--text-primary);
+}
+
+.button-info:hover {
+    background: var(--background-button-secondary-hover);
+}
+
+/* Icon Box */
+.icon-box { 
+    background: linear-gradient(145deg, #484554, #3a3846); 
+}
+
+.icon-box:hover { 
+    background: linear-gradient(145deg, #45628c, #374c6e);
+}
+
+.star {
+    color: #f1c40f; 
+}
+
+.star span {
+    color: #f1c40f;
+}
+
+/* Expandable Content */
+.content {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Action Buttons */
+.butl {
+    background: var(--background-button-secondary);
+    color: var(--text-primary);
+}
+
+.butl:hover {
+    background: var(--background-button-secondary-hover);
+}
+
+/* Modal Window */
+.modal {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background: linear-gradient(145deg, #1d1d1d, rgba(64,64,64,0.8));
+}
+
+.close-button {
+    color: var(--text-secondary);
+}
+
+.close-button:hover {
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.1);
+}
+
+/* Filters */
+.filter-group label {
+    color: var(--text-primary);
+}
+
+.filter-group input {
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-primary);
+}
+
+/* Suggestions */
+.suggestions {
+    background-color: rgba(45,45,45,0.88);
+}
+
+.suggestion-item:hover {
+    background: rgba(255,255,255,0.05);
+}
+
+/* Form Buttons */
+.modal-content button {
+    color: white;
+}
+
+.modal-content button[type="button"] {
+    background: var(--background-button-secondary);
+}
+
+.modal-content button[type="button"]:hover {
+    background: var(--background-button-secondary-hover);
+}
+
+.theme-icon[data-theme=dark] {
+  display: none;
+}
+
+.theme-icon[data-theme=gradient] {
+  display: block;
+}
+
+.theme-icon[data-theme=light] {
+  display: none;
+}
+
+.material-symbols-outlined {
+
+  color: #aaaaaa;
+
+}
