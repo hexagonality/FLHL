@@ -1,28 +1,30 @@
 ## FLHL — Free Low(Scam/New/Bad) Hostings List
 
 **! IMPORTANT ! FLHL's domain will out of work 13.08.2026. If you would like to access the site, make sure you have one of these mirrors:**
-— [>New Main Subdomain<](https://flhl.pages.dev)
-— [>FreeHosts' Mirror<](https://flhl.freehosts.eu) (thanks to [ShadowGaming](https://github.com/ShadowGaming100))
-— [>₿.₿.ug< ](https://xn--4zg.xn--4zg.ug/) (Was created on freedns.afraid.org)
+
+> - [>New Main Subdomain<](https://flhl.pages.dev)
+> - [>FreeHosts' Mirror<](https://flhl.freehosts.eu) (thanks to [ShadowGaming](https://github.com/ShadowGaming100))
+> - [>₿.₿.ug< ](https://xn--4zg.xn--4zg.ug/) (Was created on freedns.afraid.org)
+
 ### List of summerhosts and unreliable hosts, a sub-list to [FMHL](https://myuui.com) — Free Minecraft Hostings List.
 FLHL was created to expose unapproved, unreliable, or downright fraudulent hosting providers that offer free Minecraft hosting services. The definition of "Summer Host" dates back to before the FLHL. You can find the main definition [here](https://www.urbandictionary.com/define.php?term=Summerhost) or [here](https://summerhosts.pages.dev/), but I will name a few of the most important characteristics that Summer Hosts have:
-> — Close very quickly. Lifespan, usually from a few days to a few months. Then they disappear with all your servers. Also, they can often reopen, but close again.
-> — Data losses and data leaks of servers/users sensitive information. Also cracked or pirated software. For example non-licenced WHMCS.
-> — They are created mostly by teenagers.
-> — Unreliable, overloaded, trial (using temporary trial free server like vultr/kamatera/fly.io/google cloud) or fraudulent infrastructure, of dubious/unknown origin.
-> — Outright fraud / money scam / lying about their services.
-> — Counterfeiting/Buying/Removing reviews.
-> — Unfair bans, often for no reason, or for raising issues about their fraudulent activities.
-> — Critical vulnerabilities, that very often leads to data losses/leaks (Also often caused by AI)
+> - Close very quickly. Lifespan, usually from a few days to a few months. Then they disappear with all your servers. Also, they can often reopen, but close again.
+> - Data losses and data leaks of servers/users sensitive information. Also cracked or pirated software. For example non-licenced WHMCS.
+> - They are created mostly by teenagers.
+> - Unreliable, overloaded, trial (using temporary trial free server like vultr/kamatera/fly.io/google cloud) or fraudulent infrastructure, of dubious/unknown origin.
+> - Outright fraud / money scam / lying about their services.
+> - Counterfeiting/Buying/Removing reviews.
+> - Unfair bans, often for no reason, or for raising issues about their fraudulent activities.
+> - Critical vulnerabilities, that very often leads to data losses/leaks (Also often caused by AI)
 ### Own-invistigated summerhosts
 I personally tested most of the bad hostings on this list, and wrote a separate description for each hosting. So unfortunately, the **FLHL** website are very outdated and **was archived in favor of a separate independent platform "[TrustHost](https://discord.gg/3s59bWwQj9)"**. Although all this information will be on the open source TrustHost, I will not leave people without information now.
 I created an Archive of free hosting sites that have closed or they are unreliable / summerhosts. The archive can be visited here: https://github.com/Hexagonality/flhl/Archive.md
 Keep in mind, the archive contains not only bad hostings, but also bad hostings +all the  hostings that closed for any important reasons. That's why I divided hostings and such categories:
-> Good — Heroes — free hostings, that have closed down for a good reason, after many years of work.
-> Neutral — Neutral free platforms that closed without very good reasons, but were not scams.
-> Not Recommended — These are hosting services (mostly free, but starting from this category - including paid ones), which are not really bad, but not recommended for some reasons. They may have some signs of summer hosting, but not enough to say it's a scam.
-> Bad — These are hosting sites that have enough summerhost features to say that they are definitely not worth using. 
-> Scam — Hosting that has most or all of the hallmarks of summerhosts. Mostly outright fraud and security issues. Never use it, really.
+> - Good — Heroes — free hostings, that have closed down for a good reason, after many years of work.
+> - Neutral — Neutral free platforms that closed without very good reasons, but were not scams.
+> - Not Recommended — These are hosting services (mostly free, but starting from this category - including paid ones), which are not really bad, but not recommended for some reasons. They may have some signs of summer hosting, but not enough to say it's a scam.
+> - Bad — These are hosting sites that have enough summerhost features to say that they are definitely not worth using. 
+> - Scam — Hosting that has most or all of the hallmarks of summerhosts. Mostly outright fraud and security issues. Never use it, really.
 
 ### More complete list of summerhosts
 Although FLHL - hostings that I have personally researched, there are more complete verified lists from the community:
